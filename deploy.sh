@@ -10,5 +10,6 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:nthbutsky/ba-fe-course-js-vue.git chief:gh-pages
+git push -f git@github.com:nthbutsky/ba-fe-js-vue.git master:gh-pages
 cd -
+rm -rf dist

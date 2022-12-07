@@ -1,4 +1,4 @@
 module.exports = {
   publicPath:
-    process.env.NODE_ENV === 'production' ? '/ba-fe-course-js-vue/' : '/',
+    process.env.NODE_ENV === 'production' ? '/ba-fe-js-vue/' : '/',
 };
